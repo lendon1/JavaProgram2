@@ -48,6 +48,22 @@ public class Program2
       System.out.println("Tax Amount(8.25%):    " + taxAmount);
       System.out.println("Tip Amount(15%):      " + tipAmount);
       System.out.println("Total Amount:         " + totalAmount);
+
+      System.out.printf("%nOutput displayed using System.out.printf with formatting statements%n%n");
+
+      System.out.printf("Meal cost:            %.2f%n",mealCost);
+      System.out.printf("Tax Amount 8.25%%:     %.2f%n",taxAmount);
+      System.out.printf("Tip Amount 15%%:       %.2f%n",tipAmount);
+      System.out.printf("Total Amount:         %.2f%n",totalAmount);
+
+      System.out.printf("%nOutput displayed using System.out.format with formatting statements%n%n");
+
+      System.out.format("Meal cost:            %.2f%n",mealCost);
+      System.out.format("Tax Amount 8.25%%:     %.2f%n",taxAmount);
+      System.out.format("Tip Amount 15%%:       %.2f%n",tipAmount);
+      System.out.format("Total Amount:         %.2f%n",totalAmount);
+
+
    }
 
    //***************************************************************
